@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>npm-regret – AI-powered dependency analyzer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <style>
+      :root { --bg: #0b1020; --fg: #e6e8ee; --accent: #7c5cff; --muted:#9aa3b2; }
+      html, body { margin:0; padding:0; height:100%; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--fg); }
+      .container { max-width: 900px; margin: 0 auto; padding: 56px 20px; }
+      h1 { font-size: 48px; line-height: 1.1; margin: 0 0 12px; }
+      h1 .accent { color: var(--accent); }
+      p.lead { font-size: 18px; color: var(--muted); margin: 0 0 28px; }
+      .card { background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03)); border: 1px solid rgba(255,255,255,0.08); border-radius: 16px; padding: 20px; }
+      code { background: rgba(255,255,255,0.08); padding: 4px 8px; border-radius: 8px; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-top: 24px; }
+      .pill { display:inline-block; padding:8px 12px; background: rgba(124,92,255,0.15); border:1px solid rgba(124,92,255,0.35); color:#cfc6ff; border-radius:999px; font-weight:600; }
+      .footer { margin-top: 56px; color: var(--muted); font-size:14px; }
+      a { color: #b7a4ff; text-decoration: none; }
+      a:hover { text-decoration: underline; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <span class="pill">CLI</span>
+      <h1>npm-<span class="accent">regret</span></h1>
+      <p class="lead">A fun, AI-powered dependency analyzer that roasts your unused packages and nudges you to fix missing and outdated ones.</p>
+
+      <div class="card">
+        <h3>Quickstart</h3>
+        <p>Run inside your Node project:</p>
+        <p><code>npx npm-regret</code></p>
+        <p>Set <code>GROQ_API_KEY</code> to enable AI quips.</p>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <strong>Finds unused</strong>
+          <p>Detects packages not imported anywhere.</p>
+        </div>
+        <div class="card">
+          <strong>Flags missing</strong>
+          <p>Shows packages you use but forgot to install.</p>
+        </div>
+        <div class="card">
+          <strong>Lists outdated</strong>
+          <p>Summarizes updates via <code>npm outdated</code>.</p>
+        </div>
+        <div class="card">
+          <strong>Witty AI feedback</strong>
+          <p>Groq LLM gives concise, funny advice.</p>
+        </div>
+      </div>
+
+      <div class="footer">Made with ♥. See <a href="../README.md">README</a> and <a href="../CONTRIBUTING.md">Contributing</a>.</div>
+    </div>
+  </body>
+  </html>
+
+
