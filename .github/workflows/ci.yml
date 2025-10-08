@@ -1,5 +1,4 @@
 name: CI
-
 on:
   push:
     branches: [ main ]
@@ -32,8 +31,14 @@ jobs:
       - run: |
           git config user.name "github action for npm registry"
           git config user.email "aojharaj2004@gmail.com"
-      - run: npm version patch -m "Auto bump version [skip ci]"
-      - run: npm publish
+      - name: Bump version
+        run: npm version patch -m "Auto bump version [skip ci]"
+      - name: Push version bump
+        run: |
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          git push origin HEAD:main --follow-tags
+      - name: Publish to npm
+        run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
