@@ -45,7 +45,7 @@ npm start
 ```
 
 ## Maintainers
-- Anurag Ojha: [@ojhaverse] (https://x.com/ojhaverse23)
+- Anurag Ojha: [@ojhaverse](https://x.com/ojhaverse23)
 
 ## Contributing
 
