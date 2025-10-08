@@ -1,8 +1,8 @@
-# npm-regret
+<h1 align="center">npm-regret</h1>
 
 > AI-powered dependency analyzer – unused, missing, outdated + witty AI feedback.
 
-![alt text](Gemini_Generated_Image_fn9di9fn9di9fn9.jpeg)
+![npm_regret banner](https://raw.githubusercontent.com/intojhanurag/npm-regret/refs/heads/main/Gemini_Generated_Image_fn9di9fn9di9fn9.jpeg)
 
 ## Install / Run
 
