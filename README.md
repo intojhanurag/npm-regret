@@ -2,6 +2,8 @@
 
 > AI-powered dependency analyzer – unused, missing, outdated + witty AI feedback.
 
+![alt text](Gemini_Generated_Image_fn9di9fn9di9fn9.jpeg)
+
 ## Install / Run
 
 Run directly in your project directory:
