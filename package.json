@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "description": "AI-powered dependency analyzer",
   "type": "module",
+  "keywords": [
+    "ai",
+    "dependency-analyzer",
+    "groq",
+    "unused-packages",
+    "outdated-dependencies",
+    "missing-dependencies",
+    "package-audit"
+  ],
   "bin": {
     "npm-regret": "bin/npm-regret.js"
   },
@@ -10,7 +19,6 @@
     "start": "node bin/npm-regret.js",
     "test": "vitest run"
   },
-  "keywords": [],
   "author": "Anurag Ojha",
   "license": "MIT",
   "files": [
