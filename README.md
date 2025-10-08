@@ -44,6 +44,9 @@ npm test
 npm start
 ```
 
+## Maintainers
+- Anurag Ojha: [@ojhaverse] (https://x.com/ojhaverse23)
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
