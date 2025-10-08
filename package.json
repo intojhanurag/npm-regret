@@ -12,6 +12,11 @@
     "missing-dependencies",
     "package-audit"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intojhanurag/npm-regret"
+  },
+  "homepage": "https://intojhanurag.github.io/npm-regret/",
   "bin": {
     "npm-regret": "bin/npm-regret.js"
   },
